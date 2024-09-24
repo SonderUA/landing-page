@@ -22,6 +22,7 @@ a {
 }
 
 .container {
+	display: flex;
 	width: 80vw;
 	margin: 0 auto;
 }
@@ -46,4 +47,47 @@ a {
 
 .links > li {
 	list-style: none;
+}
+
+.main-text {
+	color: #f9faf8;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.add-text {
+	color: #e5e7eb;
+}
+
+.container > div {
+	flex: 1;
+}
+
+.hero-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.hero-2 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: stretch;
+}
+
+.hero-2 > img {
+	width: 400px;
+}
+
+main > section:nth-child(1) {
+	background-color: #1f2937;
+	padding: 4rem;
+}
+
+.button {
+	padding: 0.5rem 1.5rem;
+	background-color: #3882f6;
+	border-radius: 0.5rem;
+	font-weight: 400;
 }
