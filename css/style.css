@@ -27,6 +27,10 @@ a {
 	margin: 0 auto;
 }
 
+.container.sm {
+	width: 60vw;
+}
+
 .navbar {
 	display: flex;
 	height: 100%;
@@ -57,6 +61,7 @@ a {
 
 .add-text {
 	color: #e5e7eb;
+	font-weight: 300;
 }
 
 .container > div {
@@ -85,9 +90,61 @@ main > section:nth-child(1) {
 	padding: 4rem;
 }
 
+main > section:nth-child(3) {
+	background-color: #e5e7eb;
+	padding: 4rem;
+}
+
 .button {
 	padding: 0.5rem 1.5rem;
 	background-color: #3882f6;
 	border-radius: 0.5rem;
 	font-weight: 400;
+}
+
+.main-info {
+	margin-top: 2rem;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	margin-bottom: 4rem;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	width: 200px;
+}
+
+.card > img {
+	border: 2px solid black;
+	border-radius: 1rem;
+}
+
+.card > p {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+blockquote {
+	font-size: 2rem;
+	font-weight: 300;
+	font-style: italic;
+	color: #1f2937;
+}
+
+blockquote > footer {
+	display: inline;
+	font-size: initial;
+	font-weight: 700;
+	font-style: normal;
+	float: right;
+	margin: 1rem 1rem 0 0;
 }
