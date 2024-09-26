@@ -17,7 +17,6 @@ header {
 a {
 	text-decoration: none;
 	color: #e5e7eb;
-	font-weight: 300;
 	padding: 1rem;
 }
 
@@ -59,9 +58,12 @@ a {
 	font-weight: 900;
 }
 
+.light {
+	font-weight: 300;
+}
+
 .add-text {
 	color: #e5e7eb;
-	font-weight: 300;
 }
 
 .container > div {
@@ -87,12 +89,12 @@ a {
 
 main > section:nth-child(1) {
 	background-color: #1f2937;
-	padding: 4rem;
+	padding: 6rem;
 }
 
 main > section:nth-child(3) {
 	background-color: #e5e7eb;
-	padding: 4rem;
+	padding: 6rem;
 }
 
 .button {
@@ -107,7 +109,7 @@ main > section:nth-child(3) {
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
-	margin-bottom: 4rem;
+	margin-bottom: 6rem;
 }
 
 .cards {
@@ -135,16 +137,50 @@ main > section:nth-child(3) {
 
 blockquote {
 	font-size: 2rem;
-	font-weight: 300;
 	font-style: italic;
 	color: #1f2937;
 }
 
-blockquote > footer {
-	display: inline;
+blockquote > span {
 	font-size: initial;
 	font-weight: 700;
 	font-style: normal;
 	float: right;
 	margin: 1rem 1rem 0 0;
+}
+
+.alert {
+	display: flex;
+	padding: 2rem 5rem;
+	width: 100%;
+	color: white;
+	background-color: #3882f6;
+	border-radius: 0.8rem;
+	margin: 6rem 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+
+.action {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.button.alt {
+	border: 1px solid white;
+}
+
+footer {
+	display: flex;
+	background-color: #1f2937;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
 }
