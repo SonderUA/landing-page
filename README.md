@@ -1,6 +1,6 @@
 ### Landing Page
 
-To create this landing page, I invested every bit of my time and attention on this task, and I think result was worth all the efforts.
+To create this landing page, I invested every bit of my time and attention on this task, and I think the result was worth all the efforts.
 
 # Credits
 
